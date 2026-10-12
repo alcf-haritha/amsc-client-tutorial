@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .amsc/
+.worktrees/
+
+# Local tutorial credentials — never commit real values.
+.env
+.env.*
+!.env.example
